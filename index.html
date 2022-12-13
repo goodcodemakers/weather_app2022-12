@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>날씨 앱</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>국가별 날씨</h1>
+      <ul>
+        <li class="cityname">국가별</li>
+        <li class="icon">img</li>
+        <li class="temp"></li>
+        <li class="desc">description</li>
+      </ul>
+      <select name="select" id="select">
+        <option value="seoul">서울</option>
+        <option value="Boston">보스턴</option>
+        <option value="Barcelona">바르셀로나</option>
+        <option value="Berlin">베를린</option>
+        <option value="Moscow">모스크바</option>
+        <option value="Algiers">(알제리수도)알제</option>
+        <option value="Sydney">시드니</option>
+        <option value="Reykjavik">레이캬비크</option>
+      </select>
+    </div>
+    <div class="container">
+      <div class="clock">
+        <div class="circle">
+          <div class="line">
+            <div class="thick"></div>
+            <div class="thin"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/app.js"></script>
+  </body>
+</html>

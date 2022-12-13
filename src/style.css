@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../imges/clean.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#app {
+  max-width: 600px;
+  width: 50%;
+  /* margin: 0 auto; */
+  text-align: center;
+  /* outline: 1px solid #333 */
+}
+
+#app h1 {
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+.cityname {
+  font-size: 3rem;
+}
+
+.temp {
+  font-size: 5rem;
+}
+
+.desc {
+  font-size: 2rem;
+}
+
+select {
+  padding: 5px 1rem;
+  margin-top: 1rem;
+  border-style: none;
+  border-radius: 5px;
+}
+.container {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock {
+  /* display: flex; */
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
+  border-radius: 50%;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
