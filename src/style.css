@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(../imges/clean.jpg);
+  background-image: url(../imges/Clear.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,15 +58,48 @@ select {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
 }
 .clock {
   /* display: flex; */
-  width: 600px;
-  height: 600px;
-  border: 1px solid black;
-  border-radius: 50%;
-  /* justify-content: center; */
-  /* align-items: center; */
+  width: 850px;
+  height: 850px;
+  background-image: url(../imges/time.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.clock .hLine {
+  position: absolute;
+  background-image: url(../imges/Hline.svg);
+  width: 200px;
+  height: 24px;
+  transform: rotate(150deg);
+  top: calc(50% - 12px);
+  left: 50%;
+  transform-origin: left;
+}
+.clock .mLine {
+  position: absolute;
+  background-image: url(../imges/Mline.svg);
+  top: calc(50% - 12px);
+  left: 50%;
+  transform-origin: left;
+  transform: rotate(0deg);
+  width: 300px;
+
+  height: 24px;
+}
+.clock .sLine {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-image: url(../imges/Sline.svg);
+  width: 300px;
+  height: 2px;
+  transform-origin: left;
+  transform: rotate(135deg);
 }
