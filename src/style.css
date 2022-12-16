@@ -37,8 +37,11 @@ ul {
   justify-content: center;
 }
 .box {
-  border: 1px solid #000;
+  border: 1px solid #fff;
+  background: linear-gradient(45deg, rgba(224, 51, 51, 0.8), aquamarine);
   border-radius: 30px;
+  margin: 0 auto;
+  width: 300px;
 }
 
 #app h1 {
@@ -80,6 +83,9 @@ select {
   border-style: none;
   border-radius: 15px;
   font-size: 30px;
+  text-align: center;
+  color: gray;
+  background: linear-gradient(80deg, rgba(224, 51, 51, 0.5), aquamarine);
 }
 .container {
   flex: 1;
@@ -138,10 +144,11 @@ select {
 @media (max-width: 1400px) {
   body {
     flex-direction: column;
+    height: 1600px;
   }
   #app,
   .container {
     width: 100%;
-    /* height: 50%; */
+    height: 800px;
   }
 }

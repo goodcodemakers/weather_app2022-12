@@ -38,7 +38,7 @@ function showWeather(data) {
   } else {
     desc = "Dust";
   }
-  bgimgDesc.style.backgroundImage = `url(./imges/${desc}.jpg)`;
+  bgimgDesc.style.backgroundImage = `url(./imges/${desc}.gif)`;
 
   // UI 출력(DOM)
   const citynameEl = document.querySelector(".cityname");
