@@ -67,7 +67,7 @@ select.addEventListener("change", function (e) {
   container.style.backgroundImage = `url(./imges/${cityname}.jpg)`;
 });
 
-//날씨나 시간대 (주간/야간)에 따라 배경 연출 바꾸기
+//지역에 맞춰 시계표현
 function times() {
   const time = new Date();
   let hours = time.getHours(); // 시
